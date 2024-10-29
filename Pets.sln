@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{3ECF2601-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pets.Domain", "libs\Pets.Domain\Pets.Domain.csproj", "{A357C0BE-A81D-4775-9464-1AA313C7EB2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets.Infrastructure", "libs\Pets.Infrastructure\Pets.Infrastructure.csproj", "{4793D811-2F51-40D5-B75D-9E6E85E34585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,19 @@ Global
 		{A357C0BE-A81D-4775-9464-1AA313C7EB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A357C0BE-A81D-4775-9464-1AA313C7EB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A357C0BE-A81D-4775-9464-1AA313C7EB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4793D811-2F51-40D5-B75D-9E6E85E34585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4793D811-2F51-40D5-B75D-9E6E85E34585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4793D811-2F51-40D5-B75D-9E6E85E34585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4793D811-2F51-40D5-B75D-9E6E85E34585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A357C0BE-A81D-4775-9464-1AA313C7EB2A} = {3ECF2601-AF29-4D76-8773-2BCC56895068}
+		{4793D811-2F51-40D5-B75D-9E6E85E34585} = {3ECF2601-AF29-4D76-8773-2BCC56895068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0494624-AB88-499F-A015-8FDCA6C3A1C1}
 	EndGlobalSection
 EndGlobal
